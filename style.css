@@ -1,0 +1,95 @@
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container__cards {
+  margin: 70px 0;
+}
+
+.card {
+  background: palegoldenrod;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card__thumbnail {
+  width: 650px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__titulo {
+  font-family: "Times New Roman";
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.card__link {
+  color: #000;
+}
+
+.card__extract {
+  line-height: 28px;
+  color: #6d6d6d;
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: #000;
+  color: #fff;
+  display: inline-flex;
+  border-radius: 100px;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  background: #403cc2;
+}
+
+.button__texto {
+  font-weight: 600;
+}
+
+.button:hover {
+  background: #1b1881;
+  text-decoration: none;
+}
+
+.button--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -25;
+}
+
+.button--verde {
+  background: #7ba771;
+}
+
+.button--verde:hover {
+  background: #437837;
+}
+
+.frase {
+  text-align: center;
+  margin: 70px 0;
+  font-family: cursive;
+  font-weight: 600;
+  font-style: italic;
+}
