@@ -1,4 +1,4 @@
-https://pedro-donoso.github.io/PAGINA_BEM/.
+https://pedro-donoso.github.io/Web_BEM/.
 
 # PAGINA_BEM
  Metodología BEM + Responsive Web Design
